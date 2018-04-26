@@ -1,0 +1,61 @@
+*{
+    font-family: "Roboto Slab";
+}
+
+p{
+    padding-left: 8px;
+    text-align: justify;
+}
+
+body{
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+
+.title1{
+    font-family: "Roboto Slab";
+    font-size: 36px;
+    font-weight: bolder;
+    color: midnightblue;
+}
+
+.title2{
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-weight: normal;
+    color: midnightblue;
+}
+
+#profilePic{
+    float: left;
+    margin-right: 8px;
+    width: 40%;
+    height: 40%;
+    max-width: 256px;
+    max-height: 256px;
+}
+
+#profilePicTxt{
+    margin: auto;
+    width: 70%;
+}
+
+#profileDiv{
+    padding: 8px;
+    width: auto;
+}
+
+#biography{
+    float: left;
+    text-indent: 16pt;
+}
+
+#prettyPhrase{
+    font-weight: bold;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
